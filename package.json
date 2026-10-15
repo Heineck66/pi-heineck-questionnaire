@@ -1,0 +1,27 @@
+{
+  "name": "pi-heineck-questionnaire",
+  "version": "0.1.0",
+  "description": "A questionnaire tool for Pi: the agent asks you one or more multiple-choice questions, and you answer with the keyboard, add context, or write your own answer.",
+  "keywords": ["pi-package", "pi-extension", "questionnaire"],
+  "license": "MIT",
+  "author": "Heineck66",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heineck66/pi-heineck-questionnaire.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.19"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=30000 test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
