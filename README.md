@@ -4,7 +4,7 @@ A questionnaire tool for Pi: the agent asks you one or more multiple-choice ques
 you answer from the keyboard. You can add context to any choice, and the last option
 always lets you write your own answer. It started from Pi 1.0.4's
 [questionnaire.ts example](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/examples/extensions/questionnaire.ts)
-and is used with Pi 1.2.0 on Linux. It has no dependencies.
+and is used with Pi 1.2.0 on Linux. It needs Pi 0.99 or newer. It has no dependencies.
 
 ## Install
 
